@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bkg_db_add"
+    tools:context=".database.AddDBClientActivity">
+
+    <TextView
+        android:id="@+id/tv_db_rezervare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:text="@string/salveaza_in_baza_de_date"
+        android:textColor="@color/white_color"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_addDB_nume_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/tv_rez_nume_client"
+        android:textColor="@color/color_add_db_client"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_db_rezervare" />
+
+    <EditText
+        android:id="@+id/et_addDB_nume_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/et_rez_ioan"
+        android:inputType="textPersonName"
+        android:textColor="@color/color_add_db_client"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_addDB_nume_client"
+        app:layout_constraintStart_toStartOf="@+id/tv_addDB_nume_client"
+        app:layout_constraintTop_toBottomOf="@+id/tv_addDB_nume_client" />
+
+    <TextView
+        android:id="@+id/tv_addDB_locatie_plecare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/tv_rez_locatie_plecare"
+        android:textColor="@color/color_add_db_client"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/et_addDB_nume_client"
+        app:layout_constraintStart_toStartOf="@+id/et_addDB_nume_client"
+        app:layout_constraintTop_toBottomOf="@+id/et_addDB_nume_client" />
+
+    <EditText
+        android:id="@+id/et_addDB_locatie_plecare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/et_rez_giurgiu"
+        android:inputType="textPersonName"
+        android:textColor="@color/color_add_db_client"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_addDB_locatie_plecare"
+        app:layout_constraintStart_toStartOf="@+id/tv_addDB_locatie_plecare"
+        app:layout_constraintTop_toBottomOf="@+id/tv_addDB_locatie_plecare" />
+
+
+    <TextView
+        android:id="@+id/tv_addDB_zi_plecare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/tv_rez_ziua_plecarii"
+        android:textColor="@color/color_add_db_client"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_addDB_locatie_plecare" />
+
+    <EditText
+        android:id="@+id/et_addDB_zi_plecare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/et_rez_luni"
+        android:inputType="textPersonName"
+        android:textColor="@color/color_add_db_client"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_addDB_zi_plecare"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tv_addDB_zi_plecare"
+        app:layout_constraintTop_toBottomOf="@+id/tv_addDB_zi_plecare" />
+
+
+    <TextView
+        android:id="@+id/tv_addDB_ora_plecarii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/tv_rez_ora_plecarii"
+        android:textColor="@color/color_add_db_client"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/et_addDB_zi_plecare"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/et_addDB_zi_plecare"
+        app:layout_constraintTop_toBottomOf="@+id/et_addDB_zi_plecare" />
+
+    <EditText
+        android:id="@+id/et_addDB_ora_plecarii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/et_rez_13_40"
+        android:inputType="textPersonName"
+        android:textColor="@color/color_add_db_client"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="@+id/tv_addDB_ora_plecarii"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tv_addDB_ora_plecarii"
+        app:layout_constraintTop_toBottomOf="@+id/tv_addDB_ora_plecarii" />
+
+    <TextView
+        android:id="@+id/tv_addDB_firma_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/add_firma_plecare"
+        android:textColor="@color/color_add_db_client"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/et_addDB_ora_plecarii"
+        app:layout_constraintStart_toStartOf="@+id/et_addDB_ora_plecarii"
+        app:layout_constraintTop_toBottomOf="@+id/et_addDB_ora_plecarii" />
+
+    <Spinner
+        android:id="@+id/spn_addDB_firma"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_addDB_firma_label"
+        app:layout_constraintStart_toStartOf="@+id/tv_addDB_firma_label"
+        app:layout_constraintTop_toBottomOf="@+id/tv_addDB_firma_label" />
+
+    <Button
+        android:id="@+id/btn_addDB_salvare_rezervare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_btn_db_add"
+        android:text="@string/btn_rez_salveaza"
+        android:textColor="@color/white_color"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spn_addDB_firma" />
+
+    <TextView
+        android:id="@+id/tv_addDB_avertizare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:text="@string/tv_rez_avertizare"
+        android:textColor="@color/white_color"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_addDB_salvare_rezervare" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

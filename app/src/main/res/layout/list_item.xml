@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient_bkg_db_lv"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/tv_list_item_nume"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textColor="#673AB7"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_list_item_zi"
+        app:layout_constraintEnd_toStartOf="@+id/tv_list_item_loc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_list_item_loc"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_list_item_ora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_list_item_nume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_list_item_zi"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textColor="#E2FF3B"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tv_list_item_firma"
+        app:layout_constraintEnd_toStartOf="@+id/tv_list_item_ora"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_list_item_nume" />
+
+    <TextView
+        android:id="@+id/tv_list_item_ora"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="#E2FF3B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tv_list_item_firma"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_list_item_zi"
+        app:layout_constraintTop_toBottomOf="@+id/tv_list_item_loc" />
+
+    <TextView
+        android:id="@+id/tv_list_item_firma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

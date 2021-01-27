@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient_bkg_rez_lv"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_elem_nume"
+        android:layout_width="155sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="@string/elem_lv_nume"
+        android:textColor="@color/lv_row_view_bcg"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_elem_locatie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_elem_locatie"
+        android:layout_width="155sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="@string/elem_lv_locatia_plecarii"
+        android:textColor="@color/lv_row_view_bcg"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_elem_nume"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_elem_data"
+        android:layout_width="133sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/elem_lv_zi_plecare"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_elem_ora"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_elem_nume"
+         />
+
+    <TextView
+        android:id="@+id/tv_elem_ora"
+        android:layout_width="133sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/elem_lv_ora_plecarii"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_elem_nume"
+        app:layout_constraintTop_toBottomOf="@+id/tv_elem_locatie" />
+</androidx.constraintlayout.widget.ConstraintLayout>

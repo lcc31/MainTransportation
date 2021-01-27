@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Main Transportation</string>
+    <string name="locatie_plecare">Locatie de plecare:</string>
+    <string name="btn_main_autobuz_gr">GIURGIU</string>
+    <string name="btn_main_autobuz_buc">BUCURESTI</string>
+    <string name="pret_bilet">Pretul biletului este de 18 lei!</string>
+    <string name="btn_main_rezerva_loc">REZERVA LOC</string>
+    <string name="tv_rez_creeaza_o_rezervare">Creaza o rezervare:</string>
+    <string name="tv_rez_nume_client">Nume client:</string>
+    <string name="et_rez_ioan">Ioan</string>
+    <string name="tv_rez_locatie_plecare">Locatie de plecare:</string>
+    <string name="et_rez_giurgiu">Giurgiu</string>
+    <string name="tv_rez_ziua_plecarii">Ziua de plecare:</string>
+    <string name="et_rez_luni">10/01/21021</string>
+    <string name="tv_rez_ora_plecarii">Ora de plecare:</string>
+    <string name="et_rez_13_40">13:40</string>
+    <string name="btn_rez_salveaza">SALVEAZA</string>
+    <string name="tv_rez_avertizare">Rezervarea expira cu 15 minute inaintea orei de plecare!</string>
+    <string name="orar_bus_gr">Giurgiu</string>
+    <string name="month_year">day/month/year</string>
+    <string name="lv_row_view_no_content">-</string>
+    <string name="lv_row_view_expiration_time">%1$d / %2$d / %3$d</string>
+    <string name="nume_sofer">Nume sofer</string>
+    <string name="numar_masina">Numar masina</string>
+    <string name="ziua_plecarii">Ziua plecarii</string>
+    <string name="ora_plecare">Ora plecare</string>
+    <string name="nume_firma">Nume firma</string>
+    <string name="bucuresti">Bucuresti</string>
+    <string name="giurgiu">Giurgiu</string>
+    <string name="salveaza_in_baza_de_date">Salveaza in baza de date:</string>
+    <string name="insert_failed_message">Insert failed</string>
+    <string name="add_clientdb_nume_error_message">Nume invalid! Minim 3 caractere.</string>
+    <string name="add_clientdb_loc_error_message">Loc invalid! Minim 3 caractere.</string>
+    <string name="add_clientdb_date_error_message">Invalid date! Accepted format: dd/MM/yyyy</string>
+    <string name="add_clientdb_ora_error_message">Invalid hour! Accepted format: 13:10</string>
+    <string name="nume_client">Nume client</string>
+    <string name="locul_de_plecare">Locul de plecare:</string>
+    <string name="save">Save</string>
+    <string name="display_param_message">Bine ai venit, %1$s !</string>
+    <string name="menu_choose_bd">Baza de date</string>
+    <string name="add_firma_plecare">Firma cu care calatoriti</string>
+    <string name="profile_error_message_selection">No client selected</string>
+    <string name="profile_alert_title">Get ClientDb by firma</string>
+    <string name="selecteaza_firma">Selecteaza firma</string>
+    <string name="chart_label_format">%1$s - %2$d</string>
+    <string name="firma_millenium">Millenium Trans</string>
+    <string name="firma_omerta">Omerta Impex</string>
+    <string name="firma_nelma">Nelmatour</string>
+    <string name="sofer_ioan">Ioan</string>
+    <string name="sofer_andrei">Andrei</string>
+    <string name="sofer_pavel">Pavel</string>
+    <string name="masina_31_mai">GR31MAI</string>
+    <string name="masina_99_ami">GR99AIM</string>
+    <string name="masina_13_mia">GR13MIA</string>
+    <string name="zi_luni">Luni</string>
+    <string name="ora_13_10">13:10</string>
+    <string name="ora_15_40">15:40</string>
+    <string name="ora_17_40">17:40</string>
+    <string name="ora_14_50">14:50</string>
+    <string name="ora_17_50">17:20</string>
+    <string name="ora_19_50">19:50</string>
+    <string name="iv_description_maintrans">MainTrans</string>
+    <string name="elem_lv_nume">Nume client</string>
+    <string name="elem_lv_locatia_plecarii">Locatia plecarii</string>
+    <string name="elem_lv_zi_plecare">Ziua plecarii</string>
+    <string name="elem_lv_ora_plecarii">Ora plecarii</string>
+    <string name="tv_about_descriere">  Salut! Numele meu este Lungu Costin, iar aceasta este aplicatia pentru rute de transport in comun, dezvoltata in cadrul materiei dispozitive si aplicatii mobile.</string>
+    <string name="menu_choose_about">About</string>
+    <string name="menu_main_opt2">Ati selectat optiunea 2</string>
+    <string name="menu_main_opt3">Ati selectat optiunea 3</string>
+    <string name="main_menu_main_trans">Main Trans</string>
+    <string name="tv_about_indrumare">  Profesor indrumator Alexandru Dita, caruia tin sa-i multumesc pentru minunata activitatea intreprinsa in cadrul seminariilor!</string>
+
+    <string-array name="add_firma_values">
+        <item>Millenium Trans</item>
+        <item>Omerta Impex</item>
+        <item>Nelmatour</item>
+    </string-array>
+
+</resources>
